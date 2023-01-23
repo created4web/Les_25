@@ -109,7 +109,7 @@ footer {
     background: #2C3E50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: black;
+    color: white;
     padding: 10px;
     border-radius: 3px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -117,14 +117,14 @@ footer {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: black;
+    color: white;
     font-size: 20px;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
     text-decoration: none;
 }
 
