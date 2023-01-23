@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 350px) {
     [class*="col-"] {
         float: left;
         padding: 5px;
@@ -63,19 +63,24 @@
     }
 }
 
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
 body {
     background-color: black;
 }
 
 #header {
-    height: 150px;
+    height: 75px;
     background-color: rgb(26, 147, 168);
     border-radius: 3px;
 }
 
 .header-text {
     position: relative;
-    top: 20px;
+    top: -25px;
     left: 120px;
     font-family: 'Indie Flower', cursive;
     font-size: 125%;
@@ -101,7 +106,7 @@ footer {
     max-height: 50px;
     background-color: rgb(26, 147, 168);
     color: black;
-    padding: 15px;
+    padding: 10px;
     border-radius: 3px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: right;
@@ -117,6 +122,13 @@ a:hover {
     font-size: 20px;
     text-shadow: 1px 1px 1px white;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 350px) {
+    .header-text {
+        position: relative;
+        top: 0px;
+    }
 }
 
 /* Accordion */
