@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS jQuery-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <!-- Script JS -->
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js">
+    </script>
+    <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js">
+    </script>
+
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+        // Contact tab
+        $(document).ready(function () {
+            $("#verzenden").click(function () {
+                var naam = $("#idNaam").val();
+                var woonplaats = $("#idWoonplaats").val();
+                var nummer = $("#idNummer").val();
+                window.alert("Beste " + naam + " uit " + woonplaats + " wij nemen zsm contact met u op nummer: " + nummer + ".");
+            });
+        });
+    </script>
+
+
+
+    <title>Les 25</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header" class="col-12">
+            <div class="header-text">
+                <h1>jQuery</h1>
+            </div>
+        </div>
+        <div class="col-12">
+            <div id="accordion">
+                <h3>Zon</h3>
+                <div>
+                    <h2>Zon</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis egestas ligula at
+                        viverra. Vivamus euismod
+                        varius dui, hendrerit fermentum urna. In in elementum urna. Ut ante orci, elementum at pretium
+                        at, aliquam quis lorem.
+                        Suspendisse ornare in sem eget volutpat. In in risus eu eros eleifend elementum. Nullam sit amet
+                        elementum magna. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum
+                        ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante
+                        ipsum primis in faucibus.
+                        Quisque eleifend enim mattis, pretium tellus nec, gravida risus. Aliquam efficitur vulputate
+                        massa, ut posuere orci
+                        vehicula ac. Etiam vulputate metus eget nunc ullamcorper congue. Sed pellentesque et tortor ut
+                        molestie. Morbi at enim
+                        nec nunc sagittis iaculis.
+                    </p>
+                    <img id="image1" src="afbeeldingen/image9.png" alt="Schip">
+                    <p>
+                        Donec sed lorem erat. Praesent malesuada vel tortor a lacinia. Nam in lectus lacus. Duis aliquet
+                        est at ex eleifend, at
+                        rhoncus tellus dictum. Donec convallis turpis in nibh porta efficitur. Cras fringilla eros at
+                        lectus semper, eu posuere
+                        nulla suscipit. Nunc rhoncus nulla feugiat maximus pretium. Pellentesque pharetra ut metus id
+                        tempus. Integer tincidunt
+                        augue eget massa elementum rutrum a non nibh. Vestibulum ultrices ultricies risus, in congue
+                        risus dapibus sit amet.
+                        Etiam gravida laoreet rutrum. Sed a ipsum fringilla, vestibulum urna id, mollis elit.
+                    </p>
+                    <p>
+                        Nulla nec libero feugiat purus ultricies commodo. Cras dictum at justo at volutpat. Pellentesque
+                        vitae mi sit amet
+                        tellus mollis porttitor eu et nisl. Nam tempus molestie felis convallis imperdiet. Nunc nec
+                        neque diam. Duis ut diam
+                        venenatis, eleifend arcu at, imperdiet metus. Aliquam purus justo, sollicitudin non mattis vel,
+                        ullamcorper eu lectus.
+                        Etiam dictum vel lacus a porta. Nulla sit amet tristique urna, dapibus egestas orci. Curabitur
+                        tellus velit, tincidunt
+                        nec bibendum nec, luctus ac nisi. Cras ut pharetra arcu, vitae egestas dui. Cras dignissim
+                        auctor metus ac commodo. Sed
+                        ornare faucibus felis eu placerat.
+                    </p>
+                </div>
+                <h3>Strand</h3>
+                <div>
+                    <h2>Strand</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis egestas ligula at
+                        viverra. Vivamus euismod
+                        varius dui, hendrerit fermentum urna. In in elementum urna. Ut ante orci, elementum at pretium
+                        at, aliquam quis lorem.
+                        Suspendisse ornare in sem eget volutpat. In in risus eu eros eleifend elementum. Nullam sit amet
+                        elementum magna. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum
+                        ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante
+                        ipsum primis in faucibus.
+                        Quisque eleifend enim mattis, pretium tellus nec, gravida risus. Aliquam efficitur vulputate
+                        massa, ut posuere orci
+                        vehicula ac. Etiam vulputate metus eget nunc ullamcorper congue. Sed pellentesque et tortor ut
+                        molestie. Morbi at enim
+                        nec nunc sagittis iaculis.
+                    </p>
+                    <img id="image2" src="afbeeldingen/image7.png" alt="Schip">
+                    <p>
+                        Donec sed lorem erat. Praesent malesuada vel tortor a lacinia. Nam in lectus lacus. Duis aliquet
+                        est at ex eleifend, at
+                        rhoncus tellus dictum. Donec convallis turpis in nibh porta efficitur. Cras fringilla eros at
+                        lectus semper, eu posuere
+                        nulla suscipit. Nunc rhoncus nulla feugiat maximus pretium. Pellentesque pharetra ut metus id
+                        tempus. Integer tincidunt
+                        augue eget massa elementum rutrum a non nibh. Vestibulum ultrices ultricies risus, in congue
+                        risus dapibus sit amet.
+                        Etiam gravida laoreet rutrum. Sed a ipsum fringilla, vestibulum urna id, mollis elit.
+                    </p>
+                    <p>
+                        Nulla nec libero feugiat purus ultricies commodo. Cras dictum at justo at volutpat. Pellentesque
+                        vitae mi sit amet
+                        tellus mollis porttitor eu et nisl. Nam tempus molestie felis convallis imperdiet. Nunc nec
+                        neque diam. Duis ut diam
+                        venenatis, eleifend arcu at, imperdiet metus. Aliquam purus justo, sollicitudin non mattis vel,
+                        ullamcorper eu lectus.
+                        Etiam dictum vel lacus a porta. Nulla sit amet tristique urna, dapibus egestas orci. Curabitur
+                        tellus velit, tincidunt
+                        nec bibendum nec, luctus ac nisi. Cras ut pharetra arcu, vitae egestas dui. Cras dignissim
+                        auctor metus ac commodo. Sed
+                        ornare faucibus felis eu placerat.
+                    </p>
+                </div>
+                <h3>Schip</h3>
+                <div>
+                    <h2>Schip</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis egestas ligula at
+                        viverra. Vivamus euismod
+                        varius dui, hendrerit fermentum urna. In in elementum urna. Ut ante orci, elementum at pretium
+                        at, aliquam quis lorem.
+                        Suspendisse ornare in sem eget volutpat. In in risus eu eros eleifend elementum. Nullam sit amet
+                        elementum magna. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum
+                        ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante
+                        ipsum primis in faucibus.
+                        Quisque eleifend enim mattis, pretium tellus nec, gravida risus. Aliquam efficitur vulputate
+                        massa, ut posuere orci
+                        vehicula ac. Etiam vulputate metus eget nunc ullamcorper congue. Sed pellentesque et tortor ut
+                        molestie. Morbi at enim
+                        nec nunc sagittis iaculis.
+                    </p>
+                    <img id="image3" src="afbeeldingen/image2.png" alt="Schip">
+                    <p>
+                        Donec sed lorem erat. Praesent malesuada vel tortor a lacinia. Nam in lectus lacus. Duis aliquet
+                        est at ex eleifend, at
+                        rhoncus tellus dictum. Donec convallis turpis in nibh porta efficitur. Cras fringilla eros at
+                        lectus semper, eu posuere
+                        nulla suscipit. Nunc rhoncus nulla feugiat maximus pretium. Pellentesque pharetra ut metus id
+                        tempus. Integer tincidunt
+                        augue eget massa elementum rutrum a non nibh. Vestibulum ultrices ultricies risus, in congue
+                        risus dapibus sit amet.
+                        Etiam gravida laoreet rutrum. Sed a ipsum fringilla, vestibulum urna id, mollis elit.
+                    </p>
+                    <p>
+                        Nulla nec libero feugiat purus ultricies commodo. Cras dictum at justo at volutpat. Pellentesque
+                        vitae mi sit amet
+                        tellus mollis porttitor eu et nisl. Nam tempus molestie felis convallis imperdiet. Nunc nec
+                        neque diam. Duis ut diam
+                        venenatis, eleifend arcu at, imperdiet metus. Aliquam purus justo, sollicitudin non mattis vel,
+                        ullamcorper eu lectus.
+                        Etiam dictum vel lacus a porta. Nulla sit amet tristique urna, dapibus egestas orci. Curabitur
+                        tellus velit, tincidunt
+                        nec bibendum nec, luctus ac nisi. Cras ut pharetra arcu, vitae egestas dui. Cras dignissim
+                        auctor metus ac commodo. Sed
+                        ornare faucibus felis eu placerat.
+                    </p>
+                </div>
+                <h3>Contact</h3>
+                <div>
+                    <h2>Contact</h2>
+                    <div class="row"></div>
+                    <form>
+                        <div class="col-8">
+                            <label>Wat is uw roepnaam?</label>
+                            <input type="text" id="idNaam">
+                        </div>
+                        <div class="col-8">
+                            <label>Wat is uw woonplaats?</label>
+                            <input type="text" id="idWoonplaats">
+                        </div>
+                        <div class="col-8">
+                            <label>Wat is uw telefoonnummer?</label>
+                            <input type="text" id="idNummer">
+                        </div>
+                        <br>
+                        <div class="col-8">
+                            <input id="verzenden" name="knop" type="button" value="Verzenden">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <footer>
+                <h4>&copy; Copyright 2023 ~ <a href="http://www.created4web.nl">created4web</a></h4>
+            </footer>
+        </div>
+    </div>
+
+
+    <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+    </noscript>
+</body>
+
+</html>
