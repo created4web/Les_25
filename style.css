@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Oswald&family=Rubik+Puddles&display=swap');
 
 #content {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -80,10 +80,10 @@ body {
 
 .header-text {
     position: relative;
-    top: -25px;
+    top: -75px;
     left: 120px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 125%;
+    font-family: 'Caramel', cursive;
+    font-size: 250%;
     color: gold;
     text-shadow: 5px 5px black;
 }
